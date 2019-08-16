@@ -1,0 +1,53 @@
+# ignore Maven generated target folders
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+
+# ignore eclipse files
+.metadata
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.settings/
+.loadpath
+.recommenders
+.project
+.externalToolBuilders/
+*.launch
+.classpath
+.factorypath
+.tern-project
+.springBeans
+.recommenders/
+
+# ignore IDEA files
+*.iml
+*.ipr
+*.iws
+.idea
+
+# hprof dumps
+/*.hprof
+# ignore java crashes
+hs_err_pid*.log
+
+#OS X stuff
+.DS_Store
+sendgrid.env
+talfinder-ws/.svn/
+
+#Ignore log files in workspace
+*.log
+
+# Ignore private key files
+**/*.pem
